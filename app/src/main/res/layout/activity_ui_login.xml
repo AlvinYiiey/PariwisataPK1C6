@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="540dp"
+        android:background="@drawable/rectangle">
+
+        <ImageView
+            android:id="@+id/rectangle_left"
+            android:layout_width="300dp"
+            android:layout_height="500dp"
+            android:background="@drawable/rectangel2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true">
+        </ImageView>
+        <ImageView
+            android:id="@+id/text_left"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/textlogsign">
+        </ImageView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/rectangle_right"
+        android:layout_width="510dp"
+        android:layout_height="480dp"
+        android:background="@drawable/rectangelright"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="30dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:text="Log in"
+        android:textColor="@color/bg_color">
+    </TextView>
+
+    <Button
+        android:id="@+id/recttop"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectbutton1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="450dp"
+        android:text="Name/Email"
+        android:textSize="20px"
+        android:textAllCaps="false"
+        android:textColor="@color/background_gradient_start"
+        android:contentDescription="top rectangle for name ir email"
+        android:importantForAccessibility="yes"
+        android:focusable="true"
+        android:clickable="true">
+    </Button>
+
+    <Button
+        android:id="@+id/rectbottom"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectbutton1"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="450dp"
+        android:text="Password"
+        android:textSize="20px"
+        android:textAllCaps="false"
+        android:textColor="@color/background_gradient_start"
+        android:contentDescription="bottom rect for password"
+        android:importantForAccessibility="yes"
+        android:focusable="true"
+        android:clickable="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_ui_login"
+        android:layout_marginLeft="710dp"
+        android:layout_marginTop="350dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="@color/background_gradient_end">
+    </Button>
+</RelativeLayout>

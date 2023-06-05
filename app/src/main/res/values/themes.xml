@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.PariwisataPC6" parent="@style/Theme.Leanback" />
+</resources>
